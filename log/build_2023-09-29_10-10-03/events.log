@@ -1,0 +1,164 @@
+[0.000000] (-) TimerEvent: {}
+[0.002550] (industrial_robot_arm) JobQueued: {'identifier': 'industrial_robot_arm', 'dependencies': OrderedDict()}
+[0.003102] (industrial_robot_arm) JobStarted: {'identifier': 'industrial_robot_arm'}
+[0.093511] (-) TimerEvent: {}
+[0.199681] (-) TimerEvent: {}
+[0.306389] (-) TimerEvent: {}
+[0.427978] (-) TimerEvent: {}
+[0.704257] (-) TimerEvent: {}
+[0.807298] (-) TimerEvent: {}
+[0.914547] (-) TimerEvent: {}
+[1.021195] (-) TimerEvent: {}
+[1.128616] (-) TimerEvent: {}
+[1.252703] (-) TimerEvent: {}
+[1.370001] (-) TimerEvent: {}
+[1.474125] (-) TimerEvent: {}
+[1.583989] (-) TimerEvent: {}
+[1.686178] (-) TimerEvent: {}
+[1.793400] (-) TimerEvent: {}
+[1.919635] (-) TimerEvent: {}
+[2.036684] (-) TimerEvent: {}
+[2.142015] (-) TimerEvent: {}
+[2.255225] (-) TimerEvent: {}
+[2.373650] (-) TimerEvent: {}
+[2.486583] (-) TimerEvent: {}
+[2.600601] (-) TimerEvent: {}
+[2.707029] (-) TimerEvent: {}
+[2.828501] (-) TimerEvent: {}
+[2.953644] (-) TimerEvent: {}
+[3.089192] (-) TimerEvent: {}
+[3.206396] (-) TimerEvent: {}
+[3.310393] (-) TimerEvent: {}
+[3.423651] (-) TimerEvent: {}
+[3.540590] (-) TimerEvent: {}
+[3.664939] (-) TimerEvent: {}
+[3.769114] (-) TimerEvent: {}
+[3.884383] (-) TimerEvent: {}
+[3.998440] (-) TimerEvent: {}
+[4.104265] (-) TimerEvent: {}
+[4.209325] (-) TimerEvent: {}
+[4.325679] (-) TimerEvent: {}
+[4.438229] (-) TimerEvent: {}
+[4.549366] (-) TimerEvent: {}
+[4.667498] (-) TimerEvent: {}
+[4.773268] (-) TimerEvent: {}
+[4.884475] (-) TimerEvent: {}
+[4.988429] (-) TimerEvent: {}
+[5.109358] (-) TimerEvent: {}
+[5.216368] (-) TimerEvent: {}
+[5.321843] (-) TimerEvent: {}
+[5.429076] (-) TimerEvent: {}
+[5.534014] (-) TimerEvent: {}
+[5.641271] (-) TimerEvent: {}
+[5.750205] (-) TimerEvent: {}
+[5.855159] (-) TimerEvent: {}
+[5.960240] (-) TimerEvent: {}
+[6.065982] (-) TimerEvent: {}
+[6.172711] (-) TimerEvent: {}
+[6.280863] (-) TimerEvent: {}
+[6.387122] (-) TimerEvent: {}
+[6.494628] (-) TimerEvent: {}
+[6.601512] (-) TimerEvent: {}
+[6.706362] (-) TimerEvent: {}
+[6.812436] (-) TimerEvent: {}
+[6.917308] (-) TimerEvent: {}
+[7.022376] (-) TimerEvent: {}
+[7.127974] (-) TimerEvent: {}
+[7.233920] (-) TimerEvent: {}
+[7.341025] (-) TimerEvent: {}
+[7.447118] (-) TimerEvent: {}
+[7.552074] (-) TimerEvent: {}
+[7.658175] (-) TimerEvent: {}
+[7.764509] (-) TimerEvent: {}
+[7.871693] (-) TimerEvent: {}
+[7.976419] (-) TimerEvent: {}
+[8.081969] (-) TimerEvent: {}
+[8.187877] (-) TimerEvent: {}
+[8.294807] (-) TimerEvent: {}
+[8.401243] (-) TimerEvent: {}
+[8.507436] (-) TimerEvent: {}
+[8.613249] (-) TimerEvent: {}
+[8.718970] (-) TimerEvent: {}
+[8.825998] (-) TimerEvent: {}
+[8.931940] (-) TimerEvent: {}
+[9.038611] (-) TimerEvent: {}
+[9.144620] (-) TimerEvent: {}
+[9.249063] (-) TimerEvent: {}
+[9.354821] (-) TimerEvent: {}
+[9.460346] (-) TimerEvent: {}
+[9.566371] (-) TimerEvent: {}
+[9.672852] (-) TimerEvent: {}
+[9.778421] (-) TimerEvent: {}
+[9.884593] (-) TimerEvent: {}
+[9.992056] (-) TimerEvent: {}
+[10.099143] (-) TimerEvent: {}
+[10.205980] (-) TimerEvent: {}
+[10.312168] (-) TimerEvent: {}
+[10.418416] (-) TimerEvent: {}
+[10.523252] (-) TimerEvent: {}
+[10.630093] (-) TimerEvent: {}
+[10.736425] (-) TimerEvent: {}
+[10.845398] (-) TimerEvent: {}
+[10.950350] (-) TimerEvent: {}
+[11.057156] (-) TimerEvent: {}
+[11.163541] (-) TimerEvent: {}
+[11.270446] (-) TimerEvent: {}
+[11.375377] (-) TimerEvent: {}
+[11.481801] (-) TimerEvent: {}
+[11.588047] (-) TimerEvent: {}
+[11.693746] (-) TimerEvent: {}
+[11.798881] (-) TimerEvent: {}
+[11.905577] (-) TimerEvent: {}
+[12.010098] (-) TimerEvent: {}
+[12.116712] (-) TimerEvent: {}
+[12.221661] (-) TimerEvent: {}
+[12.326798] (-) TimerEvent: {}
+[12.434659] (-) TimerEvent: {}
+[12.541934] (-) TimerEvent: {}
+[12.647556] (-) TimerEvent: {}
+[12.754096] (-) TimerEvent: {}
+[12.860459] (-) TimerEvent: {}
+[12.966895] (-) TimerEvent: {}
+[13.073838] (-) TimerEvent: {}
+[13.180728] (-) TimerEvent: {}
+[13.191695] (industrial_robot_arm) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/industrial_robot_arm', 'build', '--build-base', '/home/mogtaba/robotic_workspace/build/industrial_robot_arm/build', 'install', '--record', '/home/mogtaba/robotic_workspace/build/industrial_robot_arm/install.log', '--single-version-externally-managed'], 'cwd': '/home/mogtaba/robotic_workspace/src/industrial_robot_arm', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mogtaba', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/mogtaba', 'OLDPWD': '/home/mogtaba/robotic_workspace/src', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu', 'COLCON_PREFIX_PATH': '/home/mogtaba/robotic_workspace/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mogtaba', 'NAME': 'Almogtaba', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/d/Apps/Python/Python311/Scripts/:/mnt/d/Apps/Python/Python311/:/mnt/d/Apps/RoboDK/Python37/Scripts/:/mnt/d/Apps/RoboDK/Python37/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64_win/compiler:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/Almogtaba/MinGW/bin:/mnt/d/Apps/nodejs/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/d/Apps/IBM/SPSS/Statistics/25/JRE/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/GtkSharp/2.12/bin:/mnt/d/Apps/Polyspace/R2019a/runtime/win64:/mnt/d/Apps/Polyspace/R2019a/bin:/mnt/d/Apps/Polyspace/R2019a/polyspace/bin:/mnt/d/Apps/Python/Python310/Scripts/:/mnt/d/Apps/Python/Python310/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/d/Apps/Python/Python37/Scripts/:/mnt/d/Apps/Python/Python37/:/mnt/d/Apps/Python/Python36/Scripts/:/mnt/d/Apps/Python/Python36/:/mnt/d/Apps/anaconda3:/mnt/d/Apps/anaconda3/Library/mingw-w64/bin:/mnt/d/Apps/anaconda3/Library/usr/bin:/mnt/d/Apps/anaconda3/Library/bin:/mnt/d/Apps/anaconda3/Scripts:/mnt/c/Users/Almogtaba/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Almogtaba/AppData/Roaming/npm:/mnt/c/Program Files/CMake/bin:/mnt/c/protoc-21.12-win64/bin:/mnt/c/Program Files/R/R-4.2.3/bin:/mnt/c/Users/Almogtaba/AppData/Local/Pandoc/:/mnt/d/Apps/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': '5a07fe21-7480-4939-bcdc-7fd65dcf4ed3', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/mogtaba/robotic_workspace/install/industrial_robot_arm:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/mogtaba/robotic_workspace/build/industrial_robot_arm', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mogtaba/robotic_workspace/build/industrial_robot_arm/prefix_override:/home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/python3.10/site-packages:/home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION::WT_PROFILE_ID'}, 'shell': False}
+[13.291218] (-) TimerEvent: {}
+[13.423088] (-) TimerEvent: {}
+[13.528853] (-) TimerEvent: {}
+[13.636859] (-) TimerEvent: {}
+[13.742815] (-) TimerEvent: {}
+[13.849237] (-) TimerEvent: {}
+[13.954115] (-) TimerEvent: {}
+[14.064465] (-) TimerEvent: {}
+[14.198292] (-) TimerEvent: {}
+[14.304868] (-) TimerEvent: {}
+[14.409924] (-) TimerEvent: {}
+[14.467827] (industrial_robot_arm) StdoutLine: {'line': b'running egg_info\n'}
+[14.469222] (industrial_robot_arm) StdoutLine: {'line': b'writing ../../build/industrial_robot_arm/industrial_robot_arm.egg-info/PKG-INFO\n'}
+[14.470156] (industrial_robot_arm) StdoutLine: {'line': b'writing dependency_links to ../../build/industrial_robot_arm/industrial_robot_arm.egg-info/dependency_links.txt\n'}
+[14.472779] (industrial_robot_arm) StdoutLine: {'line': b'writing entry points to ../../build/industrial_robot_arm/industrial_robot_arm.egg-info/entry_points.txt\n'}
+[14.473610] (industrial_robot_arm) StdoutLine: {'line': b'writing requirements to ../../build/industrial_robot_arm/industrial_robot_arm.egg-info/requires.txt\n'}
+[14.474150] (industrial_robot_arm) StdoutLine: {'line': b'writing top-level names to ../../build/industrial_robot_arm/industrial_robot_arm.egg-info/top_level.txt\n'}
+[14.488155] (industrial_robot_arm) StdoutLine: {'line': b"reading manifest file '../../build/industrial_robot_arm/industrial_robot_arm.egg-info/SOURCES.txt'\n"}
+[14.498965] (industrial_robot_arm) StdoutLine: {'line': b"writing manifest file '../../build/industrial_robot_arm/industrial_robot_arm.egg-info/SOURCES.txt'\n"}
+[14.499348] (industrial_robot_arm) StdoutLine: {'line': b'running build\n'}
+[14.499607] (industrial_robot_arm) StdoutLine: {'line': b'running build_py\n'}
+[14.500906] (industrial_robot_arm) StdoutLine: {'line': b'running install\n'}
+[14.501869] (industrial_robot_arm) StdoutLine: {'line': b'running install_lib\n'}
+[14.507718] (industrial_robot_arm) StdoutLine: {'line': b'running install_data\n'}
+[14.510734] (industrial_robot_arm) StdoutLine: {'line': b'copying urdf/industrial_robot_arm_moveit.urdf -> /home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/industrial_robot_arm/urdf\n'}
+[14.511123] (-) TimerEvent: {}
+[14.515288] (industrial_robot_arm) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.523783] (industrial_robot_arm) StdoutLine: {'line': b"removing '/home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/python3.10/site-packages/industrial_robot_arm-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[14.527719] (industrial_robot_arm) StdoutLine: {'line': b'Copying ../../build/industrial_robot_arm/industrial_robot_arm.egg-info to /home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/python3.10/site-packages/industrial_robot_arm-0.0.0-py3.10.egg-info\n'}
+[14.543639] (industrial_robot_arm) StdoutLine: {'line': b'running install_scripts\n'}
+[14.601615] (industrial_robot_arm) StdoutLine: {'line': b'Installing trajectory_msg script to /home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/industrial_robot_arm\n'}
+[14.603220] (industrial_robot_arm) StdoutLine: {'line': b"writing list of installed files to '/home/mogtaba/robotic_workspace/build/industrial_robot_arm/install.log'\n"}
+[14.622161] (-) TimerEvent: {}
+[14.673467] (industrial_robot_arm) CommandEnded: {'returncode': 0}
+[14.728382] (-) TimerEvent: {}
+[14.836123] (-) TimerEvent: {}
+[14.940762] (-) TimerEvent: {}
+[15.048224] (-) TimerEvent: {}
+[15.142411] (industrial_robot_arm) JobEnded: {'identifier': 'industrial_robot_arm', 'rc': 0}
+[15.145631] (-) EventReactorShutdown: {}

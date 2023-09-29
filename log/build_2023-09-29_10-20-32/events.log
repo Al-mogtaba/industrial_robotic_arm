@@ -1,0 +1,214 @@
+[0.000000] (-) TimerEvent: {}
+[0.000628] (industrial_robot_arm) JobQueued: {'identifier': 'industrial_robot_arm', 'dependencies': OrderedDict()}
+[0.000788] (arm_moveit_config) JobQueued: {'identifier': 'arm_moveit_config', 'dependencies': OrderedDict([('industrial_robot_arm', '/home/mogtaba/robotic_workspace/install/industrial_robot_arm')])}
+[0.000916] (industrial_robot_arm) JobStarted: {'identifier': 'industrial_robot_arm'}
+[0.100791] (-) TimerEvent: {}
+[0.205924] (-) TimerEvent: {}
+[0.311346] (-) TimerEvent: {}
+[0.416779] (-) TimerEvent: {}
+[0.521767] (-) TimerEvent: {}
+[0.626493] (-) TimerEvent: {}
+[0.731519] (-) TimerEvent: {}
+[0.836563] (-) TimerEvent: {}
+[0.942069] (-) TimerEvent: {}
+[1.047048] (-) TimerEvent: {}
+[1.154285] (-) TimerEvent: {}
+[1.260235] (-) TimerEvent: {}
+[1.365619] (-) TimerEvent: {}
+[1.470852] (-) TimerEvent: {}
+[1.575584] (-) TimerEvent: {}
+[1.681538] (-) TimerEvent: {}
+[1.786661] (-) TimerEvent: {}
+[1.891793] (-) TimerEvent: {}
+[1.996914] (-) TimerEvent: {}
+[2.101843] (-) TimerEvent: {}
+[2.206868] (-) TimerEvent: {}
+[2.265149] (industrial_robot_arm) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/industrial_robot_arm', 'build', '--build-base', '/home/mogtaba/robotic_workspace/build/industrial_robot_arm/build', 'install', '--record', '/home/mogtaba/robotic_workspace/build/industrial_robot_arm/install.log', '--single-version-externally-managed'], 'cwd': '/home/mogtaba/robotic_workspace/src/industrial_robot_arm', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mogtaba', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{51855cb2-8cce-5362-8f54-464b92b32386}', 'HOME': '/home/mogtaba', 'OLDPWD': '/home/mogtaba/robotic_workspace/src', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu', 'COLCON_PREFIX_PATH': '/home/mogtaba/robotic_workspace/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mogtaba', 'NAME': 'Almogtaba', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/d/Apps/Python/Python311/Scripts/:/mnt/d/Apps/Python/Python311/:/mnt/d/Apps/RoboDK/Python37/Scripts/:/mnt/d/Apps/RoboDK/Python37/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64_win/compiler:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/Almogtaba/MinGW/bin:/mnt/d/Apps/nodejs/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/d/Apps/IBM/SPSS/Statistics/25/JRE/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/GtkSharp/2.12/bin:/mnt/d/Apps/Polyspace/R2019a/runtime/win64:/mnt/d/Apps/Polyspace/R2019a/bin:/mnt/d/Apps/Polyspace/R2019a/polyspace/bin:/mnt/d/Apps/Python/Python310/Scripts/:/mnt/d/Apps/Python/Python310/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/d/Apps/Python/Python37/Scripts/:/mnt/d/Apps/Python/Python37/:/mnt/d/Apps/Python/Python36/Scripts/:/mnt/d/Apps/Python/Python36/:/mnt/d/Apps/anaconda3:/mnt/d/Apps/anaconda3/Library/mingw-w64/bin:/mnt/d/Apps/anaconda3/Library/usr/bin:/mnt/d/Apps/anaconda3/Library/bin:/mnt/d/Apps/anaconda3/Scripts:/mnt/c/Users/Almogtaba/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Almogtaba/AppData/Roaming/npm:/mnt/c/Program Files/CMake/bin:/mnt/c/protoc-21.12-win64/bin:/mnt/c/Program Files/R/R-4.2.3/bin:/mnt/c/Users/Almogtaba/AppData/Local/Pandoc/:/mnt/d/Apps/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': '5a07fe21-7480-4939-bcdc-7fd65dcf4ed3', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/mogtaba/robotic_workspace/install/industrial_robot_arm:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/mogtaba/robotic_workspace/build/industrial_robot_arm', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mogtaba/robotic_workspace/build/industrial_robot_arm/prefix_override:/home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/python3.10/site-packages:/home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION::WT_PROFILE_ID'}, 'shell': False}
+[2.312853] (-) TimerEvent: {}
+[2.417795] (-) TimerEvent: {}
+[2.522819] (-) TimerEvent: {}
+[2.627935] (-) TimerEvent: {}
+[2.733589] (-) TimerEvent: {}
+[2.840433] (-) TimerEvent: {}
+[2.947230] (-) TimerEvent: {}
+[3.052289] (-) TimerEvent: {}
+[3.078316] (industrial_robot_arm) StdoutLine: {'line': b'running egg_info\n'}
+[3.079583] (industrial_robot_arm) StdoutLine: {'line': b'writing ../../build/industrial_robot_arm/industrial_robot_arm.egg-info/PKG-INFO\n'}
+[3.080463] (industrial_robot_arm) StdoutLine: {'line': b'writing dependency_links to ../../build/industrial_robot_arm/industrial_robot_arm.egg-info/dependency_links.txt\n'}
+[3.081542] (industrial_robot_arm) StdoutLine: {'line': b'writing entry points to ../../build/industrial_robot_arm/industrial_robot_arm.egg-info/entry_points.txt\n'}
+[3.082966] (industrial_robot_arm) StdoutLine: {'line': b'writing requirements to ../../build/industrial_robot_arm/industrial_robot_arm.egg-info/requires.txt\n'}
+[3.084537] (industrial_robot_arm) StdoutLine: {'line': b'writing top-level names to ../../build/industrial_robot_arm/industrial_robot_arm.egg-info/top_level.txt\n'}
+[3.091628] (industrial_robot_arm) StdoutLine: {'line': b"reading manifest file '../../build/industrial_robot_arm/industrial_robot_arm.egg-info/SOURCES.txt'\n"}
+[3.093973] (industrial_robot_arm) StdoutLine: {'line': b"writing manifest file '../../build/industrial_robot_arm/industrial_robot_arm.egg-info/SOURCES.txt'\n"}
+[3.094343] (industrial_robot_arm) StdoutLine: {'line': b'running build\n'}
+[3.094637] (industrial_robot_arm) StdoutLine: {'line': b'running build_py\n'}
+[3.095428] (industrial_robot_arm) StdoutLine: {'line': b'running install\n'}
+[3.095998] (industrial_robot_arm) StdoutLine: {'line': b'running install_lib\n'}
+[3.098760] (industrial_robot_arm) StdoutLine: {'line': b'running install_data\n'}
+[3.102040] (industrial_robot_arm) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.108817] (industrial_robot_arm) StdoutLine: {'line': b"removing '/home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/python3.10/site-packages/industrial_robot_arm-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.113389] (industrial_robot_arm) StdoutLine: {'line': b'Copying ../../build/industrial_robot_arm/industrial_robot_arm.egg-info to /home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/python3.10/site-packages/industrial_robot_arm-0.0.0-py3.10.egg-info\n'}
+[3.130416] (industrial_robot_arm) StdoutLine: {'line': b'running install_scripts\n'}
+[3.158262] (-) TimerEvent: {}
+[3.172901] (industrial_robot_arm) StdoutLine: {'line': b'Installing trajectory_msg script to /home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/industrial_robot_arm\n'}
+[3.174150] (industrial_robot_arm) StdoutLine: {'line': b"writing list of installed files to '/home/mogtaba/robotic_workspace/build/industrial_robot_arm/install.log'\n"}
+[3.228811] (industrial_robot_arm) CommandEnded: {'returncode': 0}
+[3.266038] (-) TimerEvent: {}
+[3.376541] (-) TimerEvent: {}
+[3.482631] (-) TimerEvent: {}
+[3.586127] (-) TimerEvent: {}
+[3.693111] (-) TimerEvent: {}
+[3.728433] (industrial_robot_arm) JobEnded: {'identifier': 'industrial_robot_arm', 'rc': 0}
+[3.731444] (arm_moveit_config) JobStarted: {'identifier': 'arm_moveit_config'}
+[3.798430] (-) TimerEvent: {}
+[3.902574] (-) TimerEvent: {}
+[4.007695] (-) TimerEvent: {}
+[4.068116] (arm_moveit_config) JobProgress: {'identifier': 'arm_moveit_config', 'progress': 'cmake'}
+[4.071476] (arm_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '/home/mogtaba/robotic_workspace/src/arm_moveit_config', '-DCMAKE_INSTALL_PREFIX=/home/mogtaba/robotic_workspace/install/arm_moveit_config'], 'cwd': '/home/mogtaba/robotic_workspace/build/arm_moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mogtaba'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/mogtaba'), ('OLDPWD', '/home/mogtaba/robotic_workspace/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLCON_PREFIX_PATH', '/home/mogtaba/robotic_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mogtaba'), ('NAME', 'Almogtaba'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/d/Apps/Python/Python311/Scripts/:/mnt/d/Apps/Python/Python311/:/mnt/d/Apps/RoboDK/Python37/Scripts/:/mnt/d/Apps/RoboDK/Python37/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64_win/compiler:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/Almogtaba/MinGW/bin:/mnt/d/Apps/nodejs/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/d/Apps/IBM/SPSS/Statistics/25/JRE/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/GtkSharp/2.12/bin:/mnt/d/Apps/Polyspace/R2019a/runtime/win64:/mnt/d/Apps/Polyspace/R2019a/bin:/mnt/d/Apps/Polyspace/R2019a/polyspace/bin:/mnt/d/Apps/Python/Python310/Scripts/:/mnt/d/Apps/Python/Python310/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/d/Apps/Python/Python37/Scripts/:/mnt/d/Apps/Python/Python37/:/mnt/d/Apps/Python/Python36/Scripts/:/mnt/d/Apps/Python/Python36/:/mnt/d/Apps/anaconda3:/mnt/d/Apps/anaconda3/Library/mingw-w64/bin:/mnt/d/Apps/anaconda3/Library/usr/bin:/mnt/d/Apps/anaconda3/Library/bin:/mnt/d/Apps/anaconda3/Scripts:/mnt/c/Users/Almogtaba/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Almogtaba/AppData/Roaming/npm:/mnt/c/Program Files/CMake/bin:/mnt/c/protoc-21.12-win64/bin:/mnt/c/Program Files/R/R-4.2.3/bin:/mnt/c/Users/Almogtaba/AppData/Local/Pandoc/:/mnt/d/Apps/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '5a07fe21-7480-4939-bcdc-7fd65dcf4ed3'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/mogtaba/robotic_workspace/install/industrial_robot_arm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/mogtaba/robotic_workspace/build/arm_moveit_config'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/home/mogtaba/robotic_workspace/install/industrial_robot_arm:/opt/ros/humble')]), 'shell': False}
+[4.110892] (-) TimerEvent: {}
+[4.219655] (-) TimerEvent: {}
+[4.326016] (-) TimerEvent: {}
+[4.431127] (-) TimerEvent: {}
+[4.537216] (-) TimerEvent: {}
+[4.641949] (-) TimerEvent: {}
+[4.747764] (-) TimerEvent: {}
+[4.853776] (-) TimerEvent: {}
+[4.960204] (-) TimerEvent: {}
+[5.066515] (-) TimerEvent: {}
+[5.173578] (-) TimerEvent: {}
+[5.279816] (-) TimerEvent: {}
+[5.386084] (-) TimerEvent: {}
+[5.491736] (-) TimerEvent: {}
+[5.567598] (arm_moveit_config) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[5.596606] (-) TimerEvent: {}
+[5.702283] (-) TimerEvent: {}
+[5.808799] (-) TimerEvent: {}
+[5.914303] (-) TimerEvent: {}
+[6.021509] (-) TimerEvent: {}
+[6.125428] (-) TimerEvent: {}
+[6.231842] (-) TimerEvent: {}
+[6.284620] (arm_moveit_config) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[6.339499] (-) TimerEvent: {}
+[6.458487] (-) TimerEvent: {}
+[6.562659] (-) TimerEvent: {}
+[6.577218] (arm_moveit_config) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.667794] (-) TimerEvent: {}
+[6.773909] (-) TimerEvent: {}
+[6.879980] (-) TimerEvent: {}
+[6.992042] (-) TimerEvent: {}
+[7.108887] (-) TimerEvent: {}
+[7.215157] (-) TimerEvent: {}
+[7.320769] (-) TimerEvent: {}
+[7.426193] (-) TimerEvent: {}
+[7.483182] (arm_moveit_config) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.513120] (arm_moveit_config) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.526318] (arm_moveit_config) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.527282] (-) TimerEvent: {}
+[7.543894] (arm_moveit_config) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.606232] (arm_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.641123] (-) TimerEvent: {}
+[7.745230] (-) TimerEvent: {}
+[7.850430] (-) TimerEvent: {}
+[7.964092] (-) TimerEvent: {}
+[8.076873] (-) TimerEvent: {}
+[8.186202] (-) TimerEvent: {}
+[8.304379] (-) TimerEvent: {}
+[8.425237] (-) TimerEvent: {}
+[8.514725] (arm_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.531663] (-) TimerEvent: {}
+[8.542867] (arm_moveit_config) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.544041] (arm_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.545142] (arm_moveit_config) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.596036] (arm_moveit_config) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[8.639013] (-) TimerEvent: {}
+[8.743709] (-) TimerEvent: {}
+[8.848613] (-) TimerEvent: {}
+[8.954453] (-) TimerEvent: {}
+[9.062180] (-) TimerEvent: {}
+[9.170711] (-) TimerEvent: {}
+[9.276088] (-) TimerEvent: {}
+[9.379855] (-) TimerEvent: {}
+[9.495915] (-) TimerEvent: {}
+[9.607752] (-) TimerEvent: {}
+[9.713085] (-) TimerEvent: {}
+[9.754218] (arm_moveit_config) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[9.818695] (-) TimerEvent: {}
+[9.923632] (-) TimerEvent: {}
+[10.028560] (-) TimerEvent: {}
+[10.133479] (-) TimerEvent: {}
+[10.239755] (-) TimerEvent: {}
+[10.345446] (-) TimerEvent: {}
+[10.450520] (-) TimerEvent: {}
+[10.556682] (-) TimerEvent: {}
+[10.660561] (-) TimerEvent: {}
+[10.767175] (-) TimerEvent: {}
+[10.872456] (-) TimerEvent: {}
+[10.976941] (-) TimerEvent: {}
+[11.087536] (-) TimerEvent: {}
+[11.204002] (-) TimerEvent: {}
+[11.314911] (-) TimerEvent: {}
+[11.374077] (arm_moveit_config) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.434512] (-) TimerEvent: {}
+[11.455818] (arm_moveit_config) StdoutLine: {'line': b'-- Generating done\n'}
+[11.524664] (arm_moveit_config) StdoutLine: {'line': b'-- Build files have been written to: /home/mogtaba/robotic_workspace/build/arm_moveit_config\n'}
+[11.536720] (-) TimerEvent: {}
+[11.541727] (arm_moveit_config) CommandEnded: {'returncode': 0}
+[11.542936] (arm_moveit_config) JobProgress: {'identifier': 'arm_moveit_config', 'progress': 'build'}
+[11.544615] (arm_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mogtaba/robotic_workspace/build/arm_moveit_config', '--', '-j4', '-l4'], 'cwd': '/home/mogtaba/robotic_workspace/build/arm_moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mogtaba'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/mogtaba'), ('OLDPWD', '/home/mogtaba/robotic_workspace/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLCON_PREFIX_PATH', '/home/mogtaba/robotic_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mogtaba'), ('NAME', 'Almogtaba'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/d/Apps/Python/Python311/Scripts/:/mnt/d/Apps/Python/Python311/:/mnt/d/Apps/RoboDK/Python37/Scripts/:/mnt/d/Apps/RoboDK/Python37/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64_win/compiler:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/Almogtaba/MinGW/bin:/mnt/d/Apps/nodejs/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/d/Apps/IBM/SPSS/Statistics/25/JRE/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/GtkSharp/2.12/bin:/mnt/d/Apps/Polyspace/R2019a/runtime/win64:/mnt/d/Apps/Polyspace/R2019a/bin:/mnt/d/Apps/Polyspace/R2019a/polyspace/bin:/mnt/d/Apps/Python/Python310/Scripts/:/mnt/d/Apps/Python/Python310/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/d/Apps/Python/Python37/Scripts/:/mnt/d/Apps/Python/Python37/:/mnt/d/Apps/Python/Python36/Scripts/:/mnt/d/Apps/Python/Python36/:/mnt/d/Apps/anaconda3:/mnt/d/Apps/anaconda3/Library/mingw-w64/bin:/mnt/d/Apps/anaconda3/Library/usr/bin:/mnt/d/Apps/anaconda3/Library/bin:/mnt/d/Apps/anaconda3/Scripts:/mnt/c/Users/Almogtaba/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Almogtaba/AppData/Roaming/npm:/mnt/c/Program Files/CMake/bin:/mnt/c/protoc-21.12-win64/bin:/mnt/c/Program Files/R/R-4.2.3/bin:/mnt/c/Users/Almogtaba/AppData/Local/Pandoc/:/mnt/d/Apps/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '5a07fe21-7480-4939-bcdc-7fd65dcf4ed3'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/mogtaba/robotic_workspace/install/industrial_robot_arm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/mogtaba/robotic_workspace/build/arm_moveit_config'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/home/mogtaba/robotic_workspace/install/industrial_robot_arm:/opt/ros/humble')]), 'shell': False}
+[11.642072] (-) TimerEvent: {}
+[11.748834] (-) TimerEvent: {}
+[11.855184] (-) TimerEvent: {}
+[11.869306] (arm_moveit_config) CommandEnded: {'returncode': 0}
+[11.961815] (-) TimerEvent: {}
+[12.043864] (arm_moveit_config) JobProgress: {'identifier': 'arm_moveit_config', 'progress': 'install'}
+[12.067011] (-) TimerEvent: {}
+[12.086682] (arm_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mogtaba/robotic_workspace/build/arm_moveit_config'], 'cwd': '/home/mogtaba/robotic_workspace/build/arm_moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mogtaba'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{51855cb2-8cce-5362-8f54-464b92b32386}'), ('HOME', '/home/mogtaba'), ('OLDPWD', '/home/mogtaba/robotic_workspace/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('COLCON_PREFIX_PATH', '/home/mogtaba/robotic_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mogtaba'), ('NAME', 'Almogtaba'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/d/Apps/Python/Python311/Scripts/:/mnt/d/Apps/Python/Python311/:/mnt/d/Apps/RoboDK/Python37/Scripts/:/mnt/d/Apps/RoboDK/Python37/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64_win/compiler:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Users/Almogtaba/MinGW/bin:/mnt/d/Apps/nodejs/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/d/Apps/IBM/SPSS/Statistics/25/JRE/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/GtkSharp/2.12/bin:/mnt/d/Apps/Polyspace/R2019a/runtime/win64:/mnt/d/Apps/Polyspace/R2019a/bin:/mnt/d/Apps/Polyspace/R2019a/polyspace/bin:/mnt/d/Apps/Python/Python310/Scripts/:/mnt/d/Apps/Python/Python310/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/d/Apps/Python/Python37/Scripts/:/mnt/d/Apps/Python/Python37/:/mnt/d/Apps/Python/Python36/Scripts/:/mnt/d/Apps/Python/Python36/:/mnt/d/Apps/anaconda3:/mnt/d/Apps/anaconda3/Library/mingw-w64/bin:/mnt/d/Apps/anaconda3/Library/usr/bin:/mnt/d/Apps/anaconda3/Library/bin:/mnt/d/Apps/anaconda3/Scripts:/mnt/c/Users/Almogtaba/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Almogtaba/AppData/Roaming/npm:/mnt/c/Program Files/CMake/bin:/mnt/c/protoc-21.12-win64/bin:/mnt/c/Program Files/R/R-4.2.3/bin:/mnt/c/Users/Almogtaba/AppData/Local/Pandoc/:/mnt/d/Apps/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '5a07fe21-7480-4939-bcdc-7fd65dcf4ed3'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/mogtaba/robotic_workspace/install/industrial_robot_arm:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/mogtaba/robotic_workspace/build/arm_moveit_config'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/home/mogtaba/robotic_workspace/install/industrial_robot_arm:/opt/ros/humble')]), 'shell': False}
+[12.135951] (arm_moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.141117] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/ament_index/resource_index/package_run_dependencies/arm_moveit_config\n'}
+[12.144539] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/ament_index/resource_index/parent_prefix_path/arm_moveit_config\n'}
+[12.147165] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/environment/ament_prefix_path.sh\n'}
+[12.149593] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/environment/ament_prefix_path.dsv\n'}
+[12.152247] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/environment/path.sh\n'}
+[12.154640] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/environment/path.dsv\n'}
+[12.157657] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/local_setup.bash\n'}
+[12.161307] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/local_setup.sh\n'}
+[12.165707] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/local_setup.zsh\n'}
+[12.168825] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/local_setup.dsv\n'}
+[12.169289] (-) TimerEvent: {}
+[12.174825] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/package.dsv\n'}
+[12.178333] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/ament_index/resource_index/packages/arm_moveit_config\n'}
+[12.181481] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/cmake/arm_moveit_configConfig.cmake\n'}
+[12.184194] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/cmake/arm_moveit_configConfig-version.cmake\n'}
+[12.188172] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/package.xml\n'}
+[12.191295] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/launch\n'}
+[12.192776] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/launch/demo.launch.py\n'}
+[12.196559] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/launch/moveit_rviz.launch.py\n'}
+[12.201106] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/launch/move_group.launch.py\n'}
+[12.217528] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/launch/rsp.launch.py\n'}
+[12.232748] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/launch/setup_assistant.launch.py\n'}
+[12.244022] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/launch/spawn_controllers.launch.py\n'}
+[12.254855] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/launch/static_virtual_joint_tfs.launch.py\n'}
+[12.267465] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/launch/warehouse_db.launch.py\n'}
+[12.278954] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/config\n'}
+[12.279351] (-) TimerEvent: {}
+[12.279935] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/config/industrial_robot_arm.ros2_control.xacro\n'}
+[12.290077] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/config/industrial_robot_arm.srdf\n'}
+[12.300906] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/config/industrial_robot_arm.urdf.xacro\n'}
+[12.315051] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/config/initial_positions.yaml\n'}
+[12.326810] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/config/joint_limits.yaml\n'}
+[12.339915] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/config/kinematics.yaml\n'}
+[12.347619] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/config/moveit.rviz\n'}
+[12.356636] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/config/moveit_controllers.yaml\n'}
+[12.366582] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/config/pilz_cartesian_limits.yaml\n'}
+[12.377759] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/config/ros2_controllers.yaml\n'}
+[12.384831] (-) TimerEvent: {}
+[12.387106] (arm_moveit_config) StdoutLine: {'line': b'-- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/.setup_assistant\n'}
+[12.399153] (arm_moveit_config) CommandEnded: {'returncode': 0}
+[12.491095] (-) TimerEvent: {}
+[12.596596] (-) TimerEvent: {}
+[12.705539] (-) TimerEvent: {}
+[12.807726] (-) TimerEvent: {}
+[12.928779] (-) TimerEvent: {}
+[13.036103] (-) TimerEvent: {}
+[13.058610] (arm_moveit_config) JobEnded: {'identifier': 'arm_moveit_config', 'rc': 0}
+[13.061873] (-) EventReactorShutdown: {}

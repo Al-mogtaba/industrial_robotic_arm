@@ -1,0 +1,361 @@
+<robot name="industrial_robot_arm">
+  <link name="ground" />
+
+  <link name="base_link">
+    <inertial>
+      <origin xyz="5.216616645949832e-07 -0.0006208121955855723 0.028742444807128353" rpy="0 0 0" />
+      <mass value="0.25615293560955293" />
+      <inertia ixx="0.000371" iyy="0.000377" izz="0.000587" ixy="-0.0" iyz="2e-06" ixz="0.0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://industrial_robot_arm/meshes/base_link.stl"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="">
+        <color rgba="0.700 0.700 0.700 1.000" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://industrial_robot_arm/meshes/base_link.stl"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link
+    name="joint_1_1">
+    <inertial>
+      <origin xyz="-0.0026404804304306514 0.002948913658327358 0.02573129664762941" rpy="0 0 0" />
+      <mass value="0.22026782930399874" />
+      <inertia ixx="0.000177" iyy="0.000243" izz="0.000255" ixy="-4e-06" iyz="4e-06" ixz="1.5e-05" />
+    </inertial>
+    <visual>
+      <origin xyz="0.0 0.0 -0.05" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://industrial_robot_arm/meshes/joint_1_1.stl"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="">
+        <color rgba="0.700 0.700 0.700 1.000" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 -0.05" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://industrial_robot_arm/meshes/joint_1_1.stl"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link
+    name="joint_2_RIGHT_1">
+    <inertial>
+      <origin xyz="0.021957987083265705 2.1757363543109531e-07 0.003650506119877689" rpy="0 0 0" />
+      <mass value="0.06932703471595757" />
+      <inertia ixx="9.3e-05" iyy="9.1e-05" izz="1.3e-05" ixy="-0.0" iyz="0.0" ixz="2e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="0.013 0.017415 -0.144351" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://industrial_robot_arm/meshes/joint_2_RIGHT_1.stl"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="">
+        <color rgba="0.700 0.700 0.700 1.000" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.013 0.017415 -0.144351" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://industrial_robot_arm/meshes/joint_2_RIGHT_1.stl"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link
+    name="joint_4_1">
+    <inertial>
+      <origin xyz="-0.0037547043382459835 -0.05737024902030911 0.002387724770523736" rpy="0 0 0" />
+      <mass value="0.1702875253703865" />
+      <inertia ixx="0.00031" iyy="6.4e-05" izz="0.000348" ixy="-4.7e-05" iyz="-9e-06" ixz="-2e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="0.005 0.037415 -0.27268" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://industrial_robot_arm/meshes/joint_4_1.stl"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="">
+        <color rgba="0.700 0.700 0.700 1.000" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.005 0.037415 -0.27268" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://industrial_robot_arm/meshes/joint_4_1.stl"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link
+    name="link_j4_j5_1">
+    <inertial>
+      <origin xyz="0.019510506404596558 -0.027788188164522526 -0.013999962432383939" rpy="0 0 0" />
+      <mass value="0.03480265269587224" />
+      <inertia ixx="1.6e-05" iyy="5e-06" izz="1.6e-05" ixy="5e-06" iyz="0.0" ixz="0.0" />
+    </inertial>
+    <visual>
+      <origin xyz="0.005 0.133415 -0.28668" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://industrial_robot_arm/meshes/link_j4_j5_1.stl"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="">
+        <color rgba="0.700 0.700 0.700 1.000" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.005 0.133415 -0.28668" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://industrial_robot_arm/meshes/link_j4_j5_1.stl"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link
+    name="joint_5_6_1">
+    <inertial>
+      <origin xyz="0.02077284427411872 -0.013441807562935004 5.07179530156443e-05" rpy="0 0 0" />
+      <mass value="0.034279369968409995" />
+      <inertia ixx="1.6e-05" iyy="1e-05" izz="1.9e-05" ixy="-0.0" iyz="-0.0" ixz="0.0" />
+    </inertial>
+    <visual>
+      <origin xyz="0.027 0.187415 -0.27268" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://industrial_robot_arm/meshes/joint_5_6_1.stl"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="">
+        <color rgba="0.700 0.700 0.700 1.000" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.027 0.187415 -0.27268" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://industrial_robot_arm/meshes/joint_5_6_1.stl"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link
+    name="joint_2_LEFT_1">
+    <inertial>
+      <origin xyz="0.01492142380784536 2.0000166532987973e-07 0.04415294138852814" rpy="0 0 0" />
+      <mass value="0.06655205069580611" />
+      <inertia ixx="0.000148" iyy="0.000142" izz="9e-06" ixy="-0.0" iyz="-0.0" ixz="-3e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="0.035 0.017415 -0.110054" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://industrial_robot_arm/meshes/joint_2_LEFT_1.stl"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="">
+        <color rgba="0.700 0.700 0.700 1.000" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.035 0.017415 -0.110054" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://industrial_robot_arm/meshes/joint_2_LEFT_1.stl"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link
+    name="joint_3_1">
+    <inertial>
+      <origin xyz="0.022122141024786154 0.0056050692971188025 0.03722389505779042" rpy="0 0 0" />
+      <mass value="0.07188709477669679" />
+      <inertia ixx="5.4e-05" iyy="4.2e-05" izz="4.2e-05" ixy="-1e-06" iyz="-3e-06" ixz="-2e-06" />
+    </inertial>
+    <visual>
+      <origin xyz="0.025 0.017415 -0.230054" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://industrial_robot_arm/meshes/joint_3_1.stl"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="">
+        <color rgba="0.700 0.700 0.700 1.000" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.025 0.017415 -0.230054" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://industrial_robot_arm/meshes/joint_3_1.stl"
+          scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link
+    name="end_effector">
+    <origin xyz="-6.64555216411955e-14 -0.042499799999997284 -9.999999728282916e-08" rpy="0 0 0" />
+  </link>
+
+  <joint name="joint1" type="revolute">
+    <origin xyz="0.0 0.0 0.05" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="joint_1_1" />
+    <axis xyz="-0.0 -0.0 1.0" />
+    <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100" />
+    <dynamics damping="10.0" friction="200.0" />
+
+  </joint>
+
+  <joint
+    name="joint2" type="revolute">
+    <origin xyz="-0.035 -0.017415 0.060054" rpy="0 0 0" />
+    <parent link="joint_1_1" />
+    <child link="joint_2_LEFT_1" />
+    <axis xyz="-1.0 0.0 0.0" />
+    <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100" />
+    <dynamics damping="10.0" friction="200.0" />
+  </joint>
+
+
+  <joint
+    name="joint3" type="revolute">
+    <origin xyz="0.01 0.0 0.12" rpy="0 0 0" />
+    <parent link="joint_2_LEFT_1" />
+    <child link="joint_3_1" />
+    <axis xyz="-1.0 0.0 -0.0" />
+    <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100" />
+    <dynamics damping="10.0" friction="200.0" />
+  </joint>
+
+  <joint
+    name="joint4" type="revolute">
+    <origin xyz="0.02 -0.02 0.042626" rpy="0 0 0" />
+    <parent link="joint_3_1" />
+    <child link="joint_4_1" />
+    <axis xyz="-0.0 -1.0 0.0" />
+    <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100" />
+    <dynamics damping="10.0" friction="200.0" />
+  </joint>
+
+  <joint
+    name="joint5" type="revolute">
+    <origin xyz="-0.022 -0.15 0.0" rpy="0 0 0" />
+    <parent link="joint_4_1" />
+    <child link="joint_5_6_1" />
+    <axis xyz="-1.0 0.0 -0.0" />
+    <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100" />
+    <dynamics damping="10.0" friction="200.0" />
+  </joint>
+
+  <joint
+    name="joint6" type="revolute">
+    <origin xyz="0.02075 -0.038 0.0" rpy="0 0 0" />
+    <parent link="joint_5_6_1" />
+    <child link="end_effector" />
+    <axis xyz="-0.0 -1.0 0.0" />
+    <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100" />
+    <dynamics damping="10.0" friction="200.0" />
+  </joint>
+
+  <joint
+    name="Rigid 35" type="fixed">
+    <origin xyz="0.022 0.0 0.034297" rpy="0 0 0" />
+    <parent link="joint_2_LEFT_1" />
+    <child link="joint_2_RIGHT_1" />
+  </joint>
+
+  <joint name="ground_to_base_link" type="fixed">
+    <parent link="ground" />
+    <child link="base_link" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+  </joint>
+
+  <joint name="Rigid 38" type="fixed">
+    <origin xyz="0.0 -0.096 0.014" rpy="0 0 0" />
+    <parent link="joint_4_1" />
+    <child link="link_j4_j5_1" />
+  </joint>
+
+  <ros2_control name="GazeboSystem" type="system">
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+
+    <!-- Define command and state interfaces for each joint -->
+    <joint name="joint1">
+      <command_interface name="position">
+        <param name="min">-1.57</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position" />
+    </joint>
+
+    <joint name="joint2">
+      <command_interface name="position">
+        <param name="min">-1.57</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position" />
+    </joint>
+
+    <joint name="joint3">
+      <command_interface name="position">
+        <param name="min">-1.57</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position" />
+    </joint>
+
+    <joint name="joint4">
+      <command_interface name="position">
+        <param name="min">-1.57</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position" />
+    </joint>
+
+    <joint name="joint5">
+      <command_interface name="position">
+        <param name="min">-1.57</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position" />
+    </joint>
+
+    <joint name="joint6">
+      <command_interface name="position">
+        <param name="min">-1.57</param>
+        <param name="max">1.57</param>
+      </command_interface>
+      <state_interface name="position" />
+    </joint>
+  </ros2_control>
+
+
+  <gazebo>
+    <plugin filename="libgazebo_ros2_control.so" name="gazebo_ros2_control">
+      <robot_param>robot_description</robot_param>
+      <robot_param_node>robot_state_publisher</robot_param_node>
+      <parameters>/home/mogtaba/robotic_workspace/src/industrial_robot_arm/config/jtc.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+
+</robot>

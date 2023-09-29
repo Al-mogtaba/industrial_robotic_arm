@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: industrial_robot_arm
+    relative_path: urdf/industrial_robot_arm_moveit.urdf
+  srdf:
+    relative_path: config/industrial_robot_arm.srdf
+  package_settings:
+    author_name: MOHAMEDALMOGTABA
+    author_email: mo.mojtaba.01@gmail.com
+    generated_timestamp: 1695954015
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

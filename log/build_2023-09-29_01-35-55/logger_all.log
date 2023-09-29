@@ -1,0 +1,129 @@
+[6.357s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[6.358s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f71e301c0d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f71e32a2800>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f71e32a2800>>)
+[6.687s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.687s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.687s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.688s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.688s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.688s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.688s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mogtaba/robotic_workspace'
+[6.689s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.689s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.690s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.691s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.691s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.691s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[6.729s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[6.730s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[6.730s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[6.730s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[6.730s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[6.731s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[6.732s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[6.733s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[6.733s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[6.733s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[6.734s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[6.734s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[6.734s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[6.735s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[6.735s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[6.736s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[6.736s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[6.736s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[6.737s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[6.737s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[6.737s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[6.737s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[6.737s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[6.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[6.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[6.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[6.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[6.739s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[6.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/industrial_robot_arm) by extensions ['ignore', 'ignore_ament_install']
+[6.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/industrial_robot_arm) by extension 'ignore'
+[6.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/industrial_robot_arm) by extension 'ignore_ament_install'
+[6.744s] Level 1:colcon.colcon_core.package_identification:_identify(src/industrial_robot_arm) by extensions ['colcon_pkg']
+[6.745s] Level 1:colcon.colcon_core.package_identification:_identify(src/industrial_robot_arm) by extension 'colcon_pkg'
+[6.746s] Level 1:colcon.colcon_core.package_identification:_identify(src/industrial_robot_arm) by extensions ['colcon_meta']
+[6.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/industrial_robot_arm) by extension 'colcon_meta'
+[6.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/industrial_robot_arm) by extensions ['ros']
+[6.747s] Level 1:colcon.colcon_core.package_identification:_identify(src/industrial_robot_arm) by extension 'ros'
+[6.755s] DEBUG:colcon.colcon_core.package_identification:Package 'src/industrial_robot_arm' with type 'ros.ament_python' and name 'industrial_robot_arm'
+[6.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[6.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[6.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[6.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[6.755s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[7.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[7.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[7.634s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/mogtaba/robotic_workspace/install
+[7.767s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 298 installed packages in /opt/ros/humble
+[7.781s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[8.354s] Level 5:colcon.colcon_core.verb:set package 'industrial_robot_arm' build argument 'cmake_args' from command line to 'None'
+[8.354s] Level 5:colcon.colcon_core.verb:set package 'industrial_robot_arm' build argument 'cmake_target' from command line to 'None'
+[8.354s] Level 5:colcon.colcon_core.verb:set package 'industrial_robot_arm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.354s] Level 5:colcon.colcon_core.verb:set package 'industrial_robot_arm' build argument 'cmake_clean_cache' from command line to 'False'
+[8.355s] Level 5:colcon.colcon_core.verb:set package 'industrial_robot_arm' build argument 'cmake_clean_first' from command line to 'False'
+[8.355s] Level 5:colcon.colcon_core.verb:set package 'industrial_robot_arm' build argument 'cmake_force_configure' from command line to 'False'
+[8.355s] Level 5:colcon.colcon_core.verb:set package 'industrial_robot_arm' build argument 'ament_cmake_args' from command line to 'None'
+[8.355s] Level 5:colcon.colcon_core.verb:set package 'industrial_robot_arm' build argument 'catkin_cmake_args' from command line to 'None'
+[8.355s] Level 5:colcon.colcon_core.verb:set package 'industrial_robot_arm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.356s] DEBUG:colcon.colcon_core.verb:Building package 'industrial_robot_arm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mogtaba/robotic_workspace/build/industrial_robot_arm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mogtaba/robotic_workspace/install/industrial_robot_arm', 'merge_install': False, 'path': '/home/mogtaba/robotic_workspace/src/industrial_robot_arm', 'symlink_install': False, 'test_result_base': None}
+[8.502s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[8.635s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[8.636s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mogtaba/robotic_workspace/src/industrial_robot_arm' with build type 'ament_python'
+[8.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('industrial_robot_arm', 'ament_prefix_path')
+[8.759s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[8.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/industrial_robot_arm/hook/ament_prefix_path.ps1'
+[8.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/industrial_robot_arm/hook/ament_prefix_path.dsv'
+[8.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/industrial_robot_arm/hook/ament_prefix_path.sh'
+[8.917s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.918s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.558s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mogtaba/robotic_workspace/src/industrial_robot_arm'
+[10.696s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.696s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mogtaba/robotic_workspace/src/industrial_robot_arm': PYTHONPATH=/home/mogtaba/robotic_workspace/build/industrial_robot_arm/prefix_override:/home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/industrial_robot_arm build --build-base /home/mogtaba/robotic_workspace/build/industrial_robot_arm/build install --record /home/mogtaba/robotic_workspace/build/industrial_robot_arm/install.log --single-version-externally-managed
+[14.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mogtaba/robotic_workspace/src/industrial_robot_arm' returned '0': PYTHONPATH=/home/mogtaba/robotic_workspace/build/industrial_robot_arm/prefix_override:/home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/industrial_robot_arm build --build-base /home/mogtaba/robotic_workspace/build/industrial_robot_arm/build install --record /home/mogtaba/robotic_workspace/build/industrial_robot_arm/install.log --single-version-externally-managed
+[14.875s] Level 1:colcon.colcon_core.environment:checking '/home/mogtaba/robotic_workspace/install/industrial_robot_arm' for CMake module files
+[14.881s] Level 1:colcon.colcon_core.environment:checking '/home/mogtaba/robotic_workspace/install/industrial_robot_arm' for CMake config files
+[14.900s] Level 1:colcon.colcon_core.environment:checking '/home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib'
+[14.901s] Level 1:colcon.colcon_core.environment:checking '/home/mogtaba/robotic_workspace/install/industrial_robot_arm/bin'
+[14.901s] Level 1:colcon.colcon_core.environment:checking '/home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/pkgconfig/industrial_robot_arm.pc'
+[14.904s] Level 1:colcon.colcon_core.environment:checking '/home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/python3.10/site-packages'
+[14.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('industrial_robot_arm', 'pythonpath')
+[15.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/industrial_robot_arm/hook/pythonpath.ps1'
+[15.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/industrial_robot_arm/hook/pythonpath.dsv'
+[15.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/industrial_robot_arm/hook/pythonpath.sh'
+[15.086s] Level 1:colcon.colcon_core.environment:checking '/home/mogtaba/robotic_workspace/install/industrial_robot_arm/bin'
+[15.087s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(industrial_robot_arm)
+[15.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/industrial_robot_arm/package.ps1'
+[15.400s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/industrial_robot_arm/package.dsv'
+[15.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/industrial_robot_arm/package.sh'
+[15.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/industrial_robot_arm/package.bash'
+[15.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/industrial_robot_arm/package.zsh'
+[15.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/colcon-core/packages/industrial_robot_arm)
+[15.488s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.491s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.492s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.492s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.799s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[15.800s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.800s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.800s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.932s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[15.934s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.019s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mogtaba/robotic_workspace/install/local_setup.ps1'
+[16.023s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mogtaba/robotic_workspace/install/_local_setup_util_ps1.py'
+[16.027s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mogtaba/robotic_workspace/install/setup.ps1'
+[16.110s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mogtaba/robotic_workspace/install/local_setup.sh'
+[16.112s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mogtaba/robotic_workspace/install/_local_setup_util_sh.py'
+[16.113s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mogtaba/robotic_workspace/install/setup.sh'
+[16.168s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mogtaba/robotic_workspace/install/local_setup.bash'
+[16.172s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mogtaba/robotic_workspace/install/setup.bash'
+[16.224s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mogtaba/robotic_workspace/install/local_setup.zsh'
+[16.226s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mogtaba/robotic_workspace/install/setup.zsh'

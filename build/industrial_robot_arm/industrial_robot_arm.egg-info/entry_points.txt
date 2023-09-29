@@ -1,0 +1,3 @@
+[console_scripts]
+trajectory_msg = industrial_robot_arm.controller_test:main
+

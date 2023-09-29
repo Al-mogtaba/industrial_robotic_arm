@@ -1,0 +1,41 @@
+[0.455s] Invoking command in '/home/mogtaba/robotic_workspace/build/arm_moveit_config': AMENT_PREFIX_PATH=/home/mogtaba/robotic_workspace/install/industrial_robot_arm:/home/mogtaba/robotic_workspace/install/arm_moveit_config:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mogtaba/robotic_workspace/install/industrial_robot_arm:/opt/ros/humble /usr/bin/cmake --build /home/mogtaba/robotic_workspace/build/arm_moveit_config -- -j4 -l4
+[0.804s] Invoked command in '/home/mogtaba/robotic_workspace/build/arm_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/mogtaba/robotic_workspace/install/industrial_robot_arm:/home/mogtaba/robotic_workspace/install/arm_moveit_config:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mogtaba/robotic_workspace/install/industrial_robot_arm:/opt/ros/humble /usr/bin/cmake --build /home/mogtaba/robotic_workspace/build/arm_moveit_config -- -j4 -l4
+[1.079s] Invoking command in '/home/mogtaba/robotic_workspace/build/arm_moveit_config': AMENT_PREFIX_PATH=/home/mogtaba/robotic_workspace/install/industrial_robot_arm:/home/mogtaba/robotic_workspace/install/arm_moveit_config:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mogtaba/robotic_workspace/install/industrial_robot_arm:/opt/ros/humble /usr/bin/cmake --install /home/mogtaba/robotic_workspace/build/arm_moveit_config
+[1.138s] -- Install configuration: ""
+[1.141s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/ament_index/resource_index/package_run_dependencies/arm_moveit_config
+[1.142s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/ament_index/resource_index/parent_prefix_path/arm_moveit_config
+[1.142s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/environment/ament_prefix_path.sh
+[1.143s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/environment/ament_prefix_path.dsv
+[1.213s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/environment/path.sh
+[1.214s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/environment/path.dsv
+[1.214s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/local_setup.bash
+[1.215s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/local_setup.sh
+[1.215s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/local_setup.zsh
+[1.215s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/local_setup.dsv
+[1.215s] -- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/package.dsv
+[1.216s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/ament_index/resource_index/packages/arm_moveit_config
+[1.217s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/cmake/arm_moveit_configConfig.cmake
+[1.217s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/cmake/arm_moveit_configConfig-version.cmake
+[1.217s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/package.xml
+[1.218s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/launch
+[1.218s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/launch/demo.launch.py
+[1.218s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/launch/moveit_rviz.launch.py
+[1.218s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/launch/move_group.launch.py
+[1.219s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/launch/rsp.launch.py
+[1.219s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/launch/setup_assistant.launch.py
+[1.219s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/launch/spawn_controllers.launch.py
+[1.220s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[1.220s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/launch/warehouse_db.launch.py
+[1.220s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/config
+[1.220s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/config/industrial_robot_arm.ros2_control.xacro
+[1.221s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/config/industrial_robot_arm.srdf
+[1.221s] -- Installing: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/config/industrial_robot_arm.urdf.xacro
+[1.221s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/config/initial_positions.yaml
+[1.221s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/config/joint_limits.yaml
+[1.221s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/config/kinematics.yaml
+[1.222s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/config/moveit.rviz
+[1.222s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/config/moveit_controllers.yaml
+[1.222s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/config/pilz_cartesian_limits.yaml
+[1.223s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/config/ros2_controllers.yaml
+[1.224s] -- Up-to-date: /home/mogtaba/robotic_workspace/install/arm_moveit_config/share/arm_moveit_config/.setup_assistant
+[1.226s] Invoked command in '/home/mogtaba/robotic_workspace/build/arm_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/mogtaba/robotic_workspace/install/industrial_robot_arm:/home/mogtaba/robotic_workspace/install/arm_moveit_config:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mogtaba/robotic_workspace/install/industrial_robot_arm:/opt/ros/humble /usr/bin/cmake --install /home/mogtaba/robotic_workspace/build/arm_moveit_config

@@ -1,0 +1,22 @@
+[4.996s] Invoking command in '/home/mogtaba/robotic_workspace/src/industrial_robot_arm': PYTHONPATH=/home/mogtaba/robotic_workspace/build/industrial_robot_arm/prefix_override:/home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/industrial_robot_arm build --build-base /home/mogtaba/robotic_workspace/build/industrial_robot_arm/build install --record /home/mogtaba/robotic_workspace/build/industrial_robot_arm/install.log --single-version-externally-managed
+[6.103s] running egg_info
+[6.105s] writing ../../build/industrial_robot_arm/industrial_robot_arm.egg-info/PKG-INFO
+[6.107s] writing dependency_links to ../../build/industrial_robot_arm/industrial_robot_arm.egg-info/dependency_links.txt
+[6.116s] writing entry points to ../../build/industrial_robot_arm/industrial_robot_arm.egg-info/entry_points.txt
+[6.117s] writing requirements to ../../build/industrial_robot_arm/industrial_robot_arm.egg-info/requires.txt
+[6.117s] writing top-level names to ../../build/industrial_robot_arm/industrial_robot_arm.egg-info/top_level.txt
+[6.123s] reading manifest file '../../build/industrial_robot_arm/industrial_robot_arm.egg-info/SOURCES.txt'
+[6.127s] writing manifest file '../../build/industrial_robot_arm/industrial_robot_arm.egg-info/SOURCES.txt'
+[6.128s] running build
+[6.128s] running build_py
+[6.129s] running install
+[6.130s] running install_lib
+[6.134s] running install_data
+[6.137s] copying urdf/industrial_robot_arm.urdf -> /home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/industrial_robot_arm/urdf
+[6.139s] running install_egg_info
+[6.153s] removing '/home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/python3.10/site-packages/industrial_robot_arm-0.0.0-py3.10.egg-info' (and everything under it)
+[6.154s] Copying ../../build/industrial_robot_arm/industrial_robot_arm.egg-info to /home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/python3.10/site-packages/industrial_robot_arm-0.0.0-py3.10.egg-info
+[6.185s] running install_scripts
+[6.269s] Installing trajectory_msg script to /home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/industrial_robot_arm
+[6.272s] writing list of installed files to '/home/mogtaba/robotic_workspace/build/industrial_robot_arm/install.log'
+[6.369s] Invoked command in '/home/mogtaba/robotic_workspace/src/industrial_robot_arm' returned '0': PYTHONPATH=/home/mogtaba/robotic_workspace/build/industrial_robot_arm/prefix_override:/home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/industrial_robot_arm build --build-base /home/mogtaba/robotic_workspace/build/industrial_robot_arm/build install --record /home/mogtaba/robotic_workspace/build/industrial_robot_arm/install.log --single-version-externally-managed

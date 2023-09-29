@@ -1,0 +1,31 @@
+[2.456s] Invoking command in '/home/mogtaba/robotic_workspace/src/industrial_robot_arm': PYTHONPATH=/home/mogtaba/robotic_workspace/build/industrial_robot_arm/prefix_override:/home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/industrial_robot_arm build --build-base /home/mogtaba/robotic_workspace/build/industrial_robot_arm/build install --record /home/mogtaba/robotic_workspace/build/industrial_robot_arm/install.log --single-version-externally-managed
+[3.155s] running egg_info
+[3.157s] writing ../../build/industrial_robot_arm/industrial_robot_arm.egg-info/PKG-INFO
+[3.158s] writing dependency_links to ../../build/industrial_robot_arm/industrial_robot_arm.egg-info/dependency_links.txt
+[3.159s] writing entry points to ../../build/industrial_robot_arm/industrial_robot_arm.egg-info/entry_points.txt
+[3.159s] writing requirements to ../../build/industrial_robot_arm/industrial_robot_arm.egg-info/requires.txt
+[3.160s] writing top-level names to ../../build/industrial_robot_arm/industrial_robot_arm.egg-info/top_level.txt
+[3.170s] reading manifest file '../../build/industrial_robot_arm/industrial_robot_arm.egg-info/SOURCES.txt'
+[3.172s] writing manifest file '../../build/industrial_robot_arm/industrial_robot_arm.egg-info/SOURCES.txt'
+[3.172s] running build
+[3.172s] running build_py
+[3.173s] running install
+[3.174s] running install_lib
+[3.178s] running install_data
+[3.180s] copying urdf/industrial_robot_arm_moveit.urdf -> /home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/industrial_robot_arm/urdf
+[3.182s] copying meshes/base_link.stl -> /home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/industrial_robot_arm/meshes
+[3.188s] copying meshes/gripper_1.stl -> /home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/industrial_robot_arm/meshes
+[3.202s] copying meshes/link1_1.stl -> /home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/industrial_robot_arm/meshes
+[3.218s] copying meshes/link2l_1.stl -> /home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/industrial_robot_arm/meshes
+[3.231s] copying meshes/link2r_1.stl -> /home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/industrial_robot_arm/meshes
+[3.243s] copying meshes/link3_1.stl -> /home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/industrial_robot_arm/meshes
+[3.254s] copying meshes/link4a_1.stl -> /home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/industrial_robot_arm/meshes
+[3.265s] copying meshes/link4b_1.stl -> /home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/industrial_robot_arm/meshes
+[3.277s] copying meshes/link5_1.stl -> /home/mogtaba/robotic_workspace/install/industrial_robot_arm/share/industrial_robot_arm/meshes
+[3.288s] running install_egg_info
+[3.293s] removing '/home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/python3.10/site-packages/industrial_robot_arm-0.0.0-py3.10.egg-info' (and everything under it)
+[3.297s] Copying ../../build/industrial_robot_arm/industrial_robot_arm.egg-info to /home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/python3.10/site-packages/industrial_robot_arm-0.0.0-py3.10.egg-info
+[3.315s] running install_scripts
+[3.359s] Installing trajectory_msg script to /home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/industrial_robot_arm
+[3.360s] writing list of installed files to '/home/mogtaba/robotic_workspace/build/industrial_robot_arm/install.log'
+[3.407s] Invoked command in '/home/mogtaba/robotic_workspace/src/industrial_robot_arm' returned '0': PYTHONPATH=/home/mogtaba/robotic_workspace/build/industrial_robot_arm/prefix_override:/home/mogtaba/robotic_workspace/install/industrial_robot_arm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/industrial_robot_arm build --build-base /home/mogtaba/robotic_workspace/build/industrial_robot_arm/build install --record /home/mogtaba/robotic_workspace/build/industrial_robot_arm/install.log --single-version-externally-managed
